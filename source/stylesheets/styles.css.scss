@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Roboto:300,400,500');
+
+a {
+    color: #6c4191;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #6c4191;
+    text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.lead-color {
+  color: #6c4191;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.intro-text {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+ul > li {
+  color: #222222;
+  list-style: none;
+}
+
+.col-md-3 .panel-body .btn {
+  margin: 0 auto;
+}
+
+.pbxs {
+  padding-bottom: 5px;
+}
+
+.pbs {
+  padding-bottom: 25px;
+}
+
+.mtxs {
+  margin-top: 5px;
+}
+
+.mts {
+  margin-top: 25px;
+}
+
+.mbs {
+  margin-bottom: 25px;
+}
+
+.mtm {
+  margin-top: 50px;
+}
+
+.mbm {
+  margin-bottom: 50px;
+}
+
+.mtl {
+  margin-top: 75px;
+}
+
+.mbl {
+  margin-bottom: 75px;
+}
+
+.mtxl {
+  margin-top: 100px;
+}
+
+.mtxxl {
+  margin-top: 125px;
+}
+
+.mbxxl {
+  margin-bottom: 125px;
+}
+
+div.contact-info .mts {
+  line-height: 1.5
+  div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.fa {
+  color: black;
+}
+
+.col-md-6 img {
+  width: 95%
+}
+
+.img-center-align {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  position: relative;
+  bottom: 8px;
+  width: 11%;
+  padding-bottom: 100px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper-2 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  border-radius: 2px;
+}
+
+.border-radius {
+  border: #EDE7F6 solid 3px;
+  border-radius: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.social-media {
+  text-align: center;
+  margin: 0 auto;
+  .fa {
+    margin: 0px 20px;
+    color: #6c4191;
+  }
+}
+
+.fa {
+  color: #6c4191;
+}
+
+a .fa:hover, .fa:active {
+  color: #C1B3D4;
+}
+
+.btn {
+  background-color: purple;
+}
+
+.jumbotron {
+  background-color: #C1B3D4;
+  color: #410277;
+}

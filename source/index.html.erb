@@ -1,24 +1,26 @@
 ---
 title: KAFSC AB CONNECT - ADVOCACY CAMPAIGN
 ---
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img class="logo pbs" src="images/logo.jpg"></a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse pull-right">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Call Hotline</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img class="logo" src="images/logo.jpg"></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Donate</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Call Hotline</a>
+      </li>
+    </ul>
   </div>
 </nav>
 <div class="container mtxxl mbxxl">
@@ -38,41 +40,57 @@ title: KAFSC AB CONNECT - ADVOCACY CAMPAIGN
       <a class="btn btn-lg btn-success center-align" href="#council-list" role="button">View Council Members</a>
     </div>
   </div>
-  <%= partial "partials/councilman" %>
+  <div class="container mtxxl">
+    <h1 class="mbm center-align">Council Members of Queens</h1>
+    <%= partial "partials/members-1" %>
+    <%= partial "partials/members-2" %>
+    <%= partial "partials/members-3" %>
+    <%= partial "partials/members-4" %>
+  </div>
 
   <h1 class="mbm mtxxl" id="about">About KAFSC &amp; AB</h1>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-sm-12 col-md-6">
       <p class="lead mbs"><b class="lead-color">The Korean American Family Service Center (KAFSC)&nbsp;</b>is a leading, nonprofit organization that supports and empowers adults, youth and children to lead safe and healthy lives based on dignity, compassion and mutual respect. We are committed to preventing and ending domestic violence, sexual assault, and relationship abuse, and creating a violence-free society. Our counseling, education and advocacy programs for individuals and families in the New York Tri-State area are provided in a culturally and linguistically appropriate setting.</p>
       <div class="social-media">
-        <a href="https://twitter.com/KAFSCNY"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/kafsc/"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/KAFSCNY"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/kafsc/"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
-    <div class="col-md-7">
+    <div class="col-sm-12 col-md-6">
       <img class="img-center-align" src="images/kafsc.jpg">
     </div>
   </div>
 
   <div class="row mtxxl mbxxl">
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6">
       <img src="images/kafscab.jpg">
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6">
       <p class="lead"><b class="lead-color">KAFSC Associate Board (AB)&nbsp;</b> is a group of young professionals that serve and support KAFSC to spread awareness on domestic violence by hosting events for other young professionals in Tri-State area. We provide service</p>
 
       <p class="lead mtl mbs class="lead-color"" id="contact"><b class="lead-color">Interested in volunteering?&nbsp;</b>Both KAFSC and KAFSC AB organize and host events regularly throughout the year, and we can definitely use extra set of hands! You can support us through our <a href="http://kafsc.org/volunteer" target="_blank">volunteer network</a>. To get started, fill out this <a href="http://form.jotform.us/form/32595194185160" target="_blank">volunteer application form</a>.</p>
 
       <div>
-        <a href="https://www.facebook.com/kafsc/"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/kafsc/"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
-
-  <h1 class="mbm mtxxl" id="contact">Call Hotline</h1>
-  <div class="jumbotron center-align">
-    <h2>24 HOUR HOTLINE</h2>
-    <h1>718.460.3800</h1>
-    <h4 class="mtxs">Korean and English Bilingual Hotline</h4>
+  <div class="row mbm">
+    <div class="col-sm-12 col-md-6">
+      <h1 class="mbm" id="donate">Make a Donation</h1>
+      <div class="jumbotron jumbotron-border center-align">
+        <p class="lead">Every support that we receive is provided for individuals and families in need.<br><span>Make a Donation today!</span></p>
+        <a class="btn btn-success mtxs" href="http://kafsc.org/donate" target="_blank" role="button">Donate to KAFSC</a>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <h1 class="mbm" id="contact">Call Hotline</h1>
+      <div class="jumbotron jumbotron-purple center-align">
+        <h2>24 HOUR HOTLINE</h2><hr>
+        <h1 class="mtxs">718.460.3800</h1>
+        <h4>Korean and English Bilingual Hotline</h4>
+      </div>
+    </div>
   </div>
 </div><!-- /.container -->

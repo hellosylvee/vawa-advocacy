@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400|Roboto:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Roboto:300,400,500');
 
 a {
     color: #6c4191;
@@ -19,6 +19,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+
 .lead-color {
   color: #6c4191;
   font-family: 'Lato', sans-serif;
@@ -30,6 +31,10 @@ p {
   width: 90%;
   margin: 0 auto;
   text-align: justify;
+}
+.navbarNav {
+  position: relative;
+  float: right;
 }
 
 ul > li {
@@ -50,7 +55,7 @@ ul > li {
 }
 
 .mtxs {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .mts {
@@ -89,9 +94,9 @@ ul > li {
   margin-bottom: 125px;
 }
 
-div.contact-info .mts {
-  line-height: 1.5
-  div {
+div.contact-info {
+  line-height: 1.2
+  p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
   }
@@ -101,7 +106,7 @@ div.contact-info .mts {
   color: black;
 }
 
-.col-md-6 img {
+.col-sm-12 img {
   width: 95%
 }
 
@@ -111,10 +116,7 @@ div.contact-info .mts {
 }
 
 .logo {
-  position: relative;
-  bottom: 8px;
-  width: 11%;
-  padding-bottom: 100px;
+  width: 15%;
 }
 
 .center-align {
@@ -135,11 +137,16 @@ img {
   border-radius: 2px;
 }
 
+.donate {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .border-radius {
   border: #EDE7F6 solid 3px;
   border-radius: 300px;
   width: 100%;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 
 .social-media {
@@ -159,11 +166,29 @@ a .fa:hover, .fa:active {
   color: #C1B3D4;
 }
 
-.btn {
-  background-color: purple;
-}
-
-.jumbotron {
+.jumbotron-purple {
   background-color: #C1B3D4;
   color: #410277;
+  h2, h4 {
+    color: #410277;
+    opacity: 0.50;
+  }
 }
+
+.jumbotron-border {
+  background-color: #FFF;
+  border: solid #C1B3D4 1px;
+}
+// 
+// p.small-text {
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 300;
+//   }
+//   span{
+//     font-size: 12px;
+//   }
+// }
+
+// span {
+//   font-weight: bold;
+// }

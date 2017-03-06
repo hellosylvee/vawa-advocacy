@@ -10,10 +10,6 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -32,6 +28,16 @@ p {
   margin: 0 auto;
   text-align: justify;
 }
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.left-align {
+  text-align: left;
+}
+
 .navbarNav {
   position: relative;
   float: right;
@@ -179,7 +185,7 @@ a .fa:hover, .fa:active {
   background-color: #FFF;
   border: solid #C1B3D4 1px;
 }
-// 
+//
 // p.small-text {
 //   font-family: "Roboto", sans-serif;
 //   font-weight: 300;

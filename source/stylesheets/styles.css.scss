@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400|Roboto:300,400,500');
 
-p.lead a {
+.lead a {
     color: #6c4191;
     text-decoration: none;
 }
 
-p.lead > a:focus, a:hover {
+.lead > a:focus, a:hover {
     color: #6c4191;
     text-decoration: underline;
 }
